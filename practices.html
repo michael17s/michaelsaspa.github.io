@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button-images {
+  width: 30px; 
+  height: auto; 
+  cursor: pointer; 
+}
+.button-boxs {
+  display: flex;
+  justify-content: space-between;
+}
+</style>
+</head>
+<body>
+
+<h2>Two Equal Columns</h2>
+<div class="button-boxs">
+  <div class="previous-button">
+    <a href="#" onclick="changePage(-1)">
+      <img src="arrws.png" alt="Previous" class="button-images">
+    </a>
+  </div>
+  <div class="page-numbers">
+    <span class="page-number">1</span>
+    <span class="page-number">2</span>
+    <span class="page-number">3</span>
+    <span class="page-number">4</span>
+    <span class="page-number">5</span>
+    <!-- Other page numbers -->
+  </div>
+  <div class="next-button">
+    <a href="#" onclick="changePage(1)">
+      <img src="arrw.png" alt="Next" class="button-images">
+    </a>
+  </div>
+</div>
+</div>
+</body>
+</html>
